@@ -116,7 +116,7 @@ For any questions, please feel free to contact us via:
 
 - 📧 Email: [lxd761050753@gmail.com] 
             [huangzihhhh@gmail.com]
-- 🐛 Issue: [GitHub Issues](https://github.com/your-repo/issues)
+- 🐛 Issue: [GitHub Issues](https://github.com/LXDxmu/GRMP-IQA/issues)
 
 ---
 
