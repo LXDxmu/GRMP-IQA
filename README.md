@@ -115,7 +115,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any questions, please feel free to contact us via:
 
 - 📧 Email: [lxd761050753@gmail.com] 
-            [huangzihhhh@gmial.com]
+            [huangzihhhh@gmail.com]
 - 🐛 Issue: [GitHub Issues](https://github.com/your-repo/issues)
 
 ---
