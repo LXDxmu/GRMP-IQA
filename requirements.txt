@@ -1,0 +1,26 @@
+# Core dependencies for GRMP-IQA
+torch==1.12.0
+torchvision==0.13.0
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+
+# Image processing
+opencv-python>=4.5.0
+Pillow>=8.3.0
+scikit-image>=0.18.0
+
+# Data augmentation and loading
+imgaug>=1.2.0
+prefetch-generator>=1.0.1
+lmdb>=1.2.1
+
+# Utilities
+matplotlib>=3.4.0
+tqdm>=4.62.0
+ftfy>=6.0.0
+regex>=2021.8.0
+
+# Optional for mixed precision training
+# apex (install manually if needed) 
