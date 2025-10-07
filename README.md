@@ -95,11 +95,11 @@ python finetune.py --dataset clive --num_image 50 --pretrained --lda 5.0
 If our work is helpful for your research, please consider citing:
 
 ```bibtex
-@inproceedings{grmp_iqa2025,
+@article{li2024boosting,
   title={Few-Shot Image Quality Assessment via Adaptation of Vision-Language Models},
-  author={[Authors]},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  year={2025}
+  author={Li, Xudong and Huang, Zihao and Hu, Runze and Zhang, Yan and Cao, Liujuan and Ji, Rongrong},
+  journal={arXiv preprint arXiv:2409.05381},
+  year={2024}
 }
 ```
 
