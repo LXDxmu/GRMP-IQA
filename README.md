@@ -7,7 +7,7 @@
 *Figure 1: Overview of our GRMP-IQA framework. (a) Pre-training stage: Meta-Prompt Pre-training Module; (b) Fine-tuning stage: Quality-Aware Gradient Regularization*
 
 [![GitHub stars](https://img.shields.io/github/stars/LXDxmu/GRMP-IQA.svg?style=social&label=Star)](https://github.com/LXDxmu/GRMP-IQA)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2409.05381)
 [![Python](https://img.shields.io/badge/Python-3.8+-red.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-orange.svg)](https://pytorch.org/)
 [![CLIP](https://img.shields.io/badge/CLIP-ViT--B%2F16-green.svg)](https://github.com/openai/CLIP)
