@@ -11,6 +11,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-red.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-orange.svg)](https://pytorch.org/)
 [![CLIP](https://img.shields.io/badge/CLIP-ViT--B%2F16-green.svg)](https://github.com/openai/CLIP)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GRMP--IQA-yellow.svg)](https://huggingface.co/zzhowe/GRMP-IQA)
 
 </div>
 
@@ -64,14 +65,50 @@ ICCV_opensource_code/
    # livew_244.mat - CLIVE dataset (244x244 resolution)
    # Koniq_244.mat - KonIQ dataset (244x244 resolution)
    ```
+3. **Model Weights and Dataset Available on Hugging Face 🤗**
 
-### Step 2: Meta-Learning Pre-training 🎓
+### Step 2:📥 Download Resources
+All pre-trained model weights (.pt files) and dataset files (.mat files) are now available on the Hugging Face Model Hub:
+
+**Repository**: [zzhowe/GRMP-IQA](https://huggingface.co/zzhowe/GRMP-IQA)
+
+### Available Files
+- **Model weights**: Pre-trained checkpoints (.pt files) for different datasets and configurations
+- **Dataset files**: Processed dataset files (.mat files) including LIVE_224.mat and others
+
+### Quick Download Examples
+
+```python
+from huggingface_hub import hf_hub_download
+import torch
+import scipy.io as sio
+
+# Download pre-trained model weights
+model_path = hf_hub_download(
+    repo_id="zzhowe/GRMP-IQA",
+    filename="clive_50_prompt_lda_5.0.pt"
+)
+
+# Download dataset file
+dataset_path = hf_hub_download(
+    repo_id="zzhowe/GRMP-IQA",
+    filename="LIVE_224.mat"
+)
+
+# Load model
+model = torch.load(model_path, map_location='cpu')
+
+# Load dataset
+dataset = sio.loadmat(dataset_path)
+```
+
+### Step 3: Meta-Learning Pre-training 🎓
 
 ```bash
 # Run meta-learning pre-training (on TID2013 and KADID-10K)
 python pretrain.py
 ```
-### Step 3: Few-Shot Fine-tuning 🎯
+### Step 4: Few-Shot Fine-tuning 🎯
 
 ```bash
 # 50-shot fine-tuning on CLIVE dataset
