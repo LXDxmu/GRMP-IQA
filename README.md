@@ -117,14 +117,12 @@ python finetune.py --dataset clive --num_image 50 --lda 5.0
 # Fine-tuning on KonIQ dataset  
 python finetune.py --dataset koniq --num_image 50 --lda 5.0
 
-# Fine-tuning with pre-trained model
-python finetune.py --dataset clive --num_image 50 --pretrained --lda 5.0
 ```
 
 **Fine-tuning Parameters** ⚙️:
 - `--dataset`: Target dataset [clive|koniq|pipal]
 - `--num_image`: Number of few-shot samples (default: 50)
-- `--pretrained`: Whether to use pre-trained model
+- `--pretrained`: Whether to use a pre-trained image quality assessment model as a regularizer
 - `--lda`: Gradient regularization weight (default: 5.0)
 
 ## 📚 Citation
