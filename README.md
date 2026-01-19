@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![GRMP-IQA Overview](https://tc.z.wiki/autoupload/f/D-USErAe7s9fQrmIZD6eFLN2XAfHAV9CE7VqFrO7cHayl5f0KlZfm6UsKj-HyTuv/20250723/Q4Ew/14657X5000/framework_final_0413.jpg)
+<img width="1430" height="487" alt="image" src="https://github.com/user-attachments/assets/a832b5c9-afc0-4aaf-8df3-4a5d26d6ec5a" />
 
 *Figure 1: Overview of our GRMP-IQA framework. (a) Pre-training stage: Meta-Prompt Pre-training Module; (b) Fine-tuning stage: Quality-Aware Gradient Regularization*
 
